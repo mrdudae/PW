@@ -1,5 +1,8 @@
-function  mostrarMensagem(){
-    let aplicacao = "zilma"
-    console.log("Acesso a aplicação" + aplicacao)
-    alert ("Bem vindo a" + aplicacao)
+function parouimpar(num) {
+    if (num % 2 == 0) {
+        console.log(true)
+    } else {
+        console.log(false)
 }
+}
+console.log(parouimpar(2))

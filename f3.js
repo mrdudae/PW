@@ -1,5 +1,10 @@
-function mostrarDobro(num){
-    let dobro = num * 2
-    alert ("O dobro do num é: " + dobro)
+function fatorial(num) {
+    let fatorial = 1
+    let i = 1
+    while (i <= num) {
+        fatorial = fatorial * i
+        i = i + 1
+    }
+    console.log(num + "! = " + fatorial)
 }
-mostrarDobro(2)
+console.log(fatorial(2))
